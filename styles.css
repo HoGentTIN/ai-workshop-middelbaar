@@ -1,4 +1,61 @@
 #imgSendsteps {
   height: 300px;
-  border: solid black 1px;
+  border: solid black 2px;
+}
+
+* {
+  font-family: Montserrat, Arial, sans-serif;
+}
+body {
+  margin: 0px;
+}
+main,
+footer {
+  padding: 8px;
+}
+
+footer {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  p {
+    color: white;
+  }
+  img {
+    width: 100px;
+    height: auto;
+    padding-right: 2%;
+  }
+}
+header {
+  height: 14.5rem;
+
+  .letter_over_text {
+    position: absolute;
+    top: 0;
+    left: 1rem;
+    font-size: 15rem;
+    font-weight: 900;
+    color: #fabc32;
+    z-index: -1;
+  }
+  h1 {
+    font-size: 3rem;
+    position: absolute;
+    top: 8rem;
+    left: 5rem;
+  }
+}
+
+.columns {
+  display: flex;
+  justify-content: space-between;
+  div {
+    padding-right: 5%;
+  }
+}
+
+#QR{
+  width: 200px;
 }
